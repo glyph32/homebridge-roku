@@ -35,10 +35,6 @@ class RokuAccessory {
   setup() {
     this.services.push(this.setupAccessoryInfo());
     this.services.push(this.setupSwitch());
-    this.services.push(this.setupMute());
-    this.services.push(this.setupVolumeUp());
-    this.services.push(this.setupVolumeDown());
-    this.services.push(...this.setupChannels());
   }
 
   setupAccessoryInfo() {
